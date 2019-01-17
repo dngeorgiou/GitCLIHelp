@@ -52,6 +52,9 @@ $ git checkout -b old-state {first 9 #'s of git commit}
 // Revert working copy to most recent commit  
 $ git reset --hard HEAD
 
+// Revert working copy to {#} commits previous
+$ git reset --hard HEAD^{#}
+
 
 # Branching
 // Create and move to {branchName}  
