@@ -75,14 +75,16 @@ $ git push --delete {remoteName} {branchName}
 // Merge {branchName} with branch currently on  
 $ git merge {branchName}
 
+
 # Create new repository on the command line
-$ echo "# {repository_name}" >> README.md
-$ git init
-$ git add README.md
-$ git commit -m "first commit"
-$ git remote add origin https://github.com/account_name/{repository_name}
-$ git push -u origin master
+$ echo "# {repository_name}" >> README.md  
+$ git init  
+$ git add README.md  
+$ git commit -m "first commit"  
+$ git remote add origin https://github.com/account_name/{repository_name}  
+$ git push -u origin master  
+
 
 # Push an existing repository from the command line
-$ git remote add origin https://github.com/dngeorgiou/GitCLIHelp.git
-$ git push -u origin master
+$ git remote add origin https://github.com/dngeorgiou/GitCLIHelp.git  
+$ git push -u origin master  
