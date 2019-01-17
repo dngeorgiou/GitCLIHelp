@@ -86,5 +86,5 @@ $ git push -u origin master
 
 
 # Push an existing repository from the command line
-$ git remote add origin https://github.com/{account_name}/GitCLIHelp.git  
+$ git remote add origin https://github.com/{account_name}/{repository_name}  
 $ git push -u origin master  
