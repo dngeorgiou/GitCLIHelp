@@ -88,3 +88,14 @@ $ git push -u origin master
 # Push an existing repository from the command line
 $ git remote add origin https://github.com/{account_name}/{repository_name}  
 $ git push -u origin master  
+
+
+# Remove local untracked files
+// Remove directories  
+$ git clean -fd  
+
+// Remove ignored files  
+$ git clean -fX  
+
+// Remove ignored and non-ignored files  
+$ git clean -fx  
